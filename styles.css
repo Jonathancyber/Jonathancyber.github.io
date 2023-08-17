@@ -1,0 +1,161 @@
+/* Modify background color of body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #e7e5e5; /* Change to your desired color code */
+}
+
+.background {
+    background-image: url('your-image.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #e7e5e5;
+    color: #faf8f8;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #7289DA;
+    border-radius: 19px;
+    padding: 10px 0;
+    position: fixed;
+    width: 40%;
+    top: 0;
+    left: 25%;
+    transform: translate(13%, 10%);
+    z-index: 1000;
+}
+
+
+.navbar a {
+    font-family: "Bebas Neue", sans-serif;
+    color: #f0eded;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 14px;
+}
+
+.hero-title {
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 28px;
+    color: #030303;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.roleplay-font {
+    font-family: "Press Start 2P", sans-serif;
+}
+
+.discord-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #7289DA;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.discord-button:hover {
+    background-color: #6A7BC0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.gallery-item {
+    flex: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item:hover {
+    transform: scale(1.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.about {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f0f0f0;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 16px;
+}
+
+
+.contact {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #e7e5e5;
+    border-radius: 5px;
+}
+
+.contact button {
+    display: block;
+    margin: 0 auto;
+    background-color: #7289DA;
+    color: #e7e5e5;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #6A7BC0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e7e5e5;
+    color: #000000;
+}
